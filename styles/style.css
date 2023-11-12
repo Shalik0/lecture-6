@@ -1,0 +1,141 @@
+body{
+    background: #F1F1F1;
+}
+
+header {
+    background-color: pink;
+	padding-top: 21px;
+	padding-left: 137px;
+	padding-bottom: 42px;
+    margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.pages{
+    position: center;
+}
+
+a{
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.user{
+    width: 32px;
+    height: 32px;
+}
+
+section{
+    position: relative;
+    margin-left: 138px;
+}
+
+.container1{
+    height: 441px;
+    margin-bottom:57px;
+    
+}
+
+.cards{
+    margin-top: 100px;
+
+    display: inline-flex;
+}
+
+.card1{
+    margin-left: 40px;
+}
+
+.sec1{
+    top: 100px;
+    width: 362px;
+    height: 186px;
+    flex-shrink: 0;
+}
+
+.content{
+    width: 362px;
+    height: 169px;
+    border-radius: 0px 0px 5px 5px;
+    background: #FFF;
+}
+
+h1{
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.container2{
+    height: 968px;
+    margin: 0 auto;
+}
+
+.bpics{
+    width: 758px;
+    height: 430px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.b1{
+    margin-bottom: 42px;
+}
+
+.spics{
+    width: 362px;
+    height: 212px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 45px;
+}
+
+.s{
+    margin-bottom: 98px;
+}
+
+
+footer{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 201px;
+    background: #243043;
+}
+
+footer a{
+    color: #818687;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo1{
+    width: 38px;
+    height: 40px; 
+    margin-right: 137px;  
+}
