@@ -3,11 +3,9 @@ body{
 }
 
 header {
-    background-color: pink;
-	padding-top: 21px;
-	padding-left: 137px;
-	padding-bottom: 42px;
-    margin-bottom: 10px;
+    background-color: #F1F1F1;
+	padding-left: 106px;
+	padding-bottom: 21px;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -17,7 +15,11 @@ header {
     position: center;
 }
 
-a{
+li{
+    display: inline-block;
+}
+
+li a{
     color: #000;
     font-family: Roboto;
     font-size: 11px;
@@ -29,6 +31,7 @@ a{
     padding-right: 35px;
 }
 
+
 .user{
     width: 32px;
     height: 32px;
@@ -39,20 +42,80 @@ section{
     margin-left: 138px;
 }
 
+.name{
+    width: 100%;
+}
+
+.title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 76px;
+    padding-bottom: -10px;
+}
+
 .container1{
     height: 441px;
-    margin-bottom:57px;
-    
 }
 
 .cards{
-    margin-top: 100px;
-
+    margin-top: 27px;
     display: inline-flex;
+    
 }
 
+
 .card1{
+    position: relative;
+    background: #FFF;
+    padding-bottom: 171px;
+}
+
+.card2{
     margin-left: 40px;
+    position: relative;
+    background: #FFF;
+    padding-bottom: 171px;
+}
+
+.card3{
+    margin-left: 40px;
+    position: relative;
+    background: #FFF;
+    padding-bottom: 171px;
+}
+
+.top-left{
+    position: absolute;
+    top: 32px;
+    left: 41px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-left1 {
+    position: absolute;
+    top: 37px;
+    left: 40px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
 }
 
 .sec1{
@@ -62,14 +125,10 @@ section{
     flex-shrink: 0;
 }
 
-.content{
-    width: 362px;
-    height: 169px;
-    border-radius: 0px 0px 5px 5px;
-    background: #FFF;
-}
-
-h1{
+.content h1{
+    position: absolute;
+    padding-top: 68px ;
+    padding-left: 37px;
     color: #8A8787;
     font-family: Roboto;
     font-size: 10px;
@@ -82,6 +141,16 @@ h1{
 .container2{
     height: 968px;
     margin: 0 auto;
+}
+
+.title1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
 }
 
 .bpics{
@@ -112,7 +181,10 @@ footer{
     margin-bottom: 0px;
     width: 100%;
     height: 201px;
+    margin-top: 36px;
+    padding-left: 137px;
     background: #243043;
+    display: inline-block;
 }
 
 footer a{
@@ -125,7 +197,7 @@ footer a{
     text-decoration: none;
 }
 
-h2{
+footer h2{
     color: #FFF;
     font-family: Roboto;
     font-size: 12px;
@@ -134,8 +206,17 @@ h2{
     line-height: normal;
 }
 
+
+.menu{
+    display: inline-block;
+}
+
 .logo1{
     width: 38px;
     height: 40px; 
-    margin-right: 137px;  
+    right: 0;
+}
+
+.footer{
+    display: inline-block;
 }
